@@ -3,8 +3,6 @@ package lotto.model
 data class LottoNumber(val number: Int) {
     override fun toString(): String = number.toString()
 
-    override fun toString(): String = number
-
     companion object {
         private val LOTTO_NUMBER_RANGE: IntRange = 1..45
 
